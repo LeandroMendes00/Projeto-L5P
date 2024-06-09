@@ -1,0 +1,21 @@
+.btn-adicionar {
+    background-color: var(--cor-botao-adicionar);
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-excluir {
+    background-color: var(--cor-botao-excluir); 
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botoes button {
+    margin-right: 10px; 
+}

@@ -1,0 +1,27 @@
+.cabeçalho {
+    background-color: var(--cor-de-fundo-cabecalho);
+    padding-top: 0.5em;
+    width: 100%;
+    position: relative;
+}
+
+.container__cabeçalho {
+    display: flex;
+    justify-content: space-between; /* Alinha os elementos à esquerda e à direita */
+    align-items: center;
+    padding: 1em 5em;
+}
+
+.container__bio {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--cor-de-fundo-bio);
+    padding: 0.5em;
+    gap: 2em;
+}
+
+.container__home {
+    position: absolute;
+    top: 78%;
+    left: 5%;
+}

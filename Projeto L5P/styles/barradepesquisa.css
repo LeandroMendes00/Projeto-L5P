@@ -1,0 +1,16 @@
+.banner__pesquisa {
+    width: 360px; /* largura desejada */
+    height: 40px; /* altura desejada */
+    padding: 10px; /* preenchimento interno */
+    font-size: 16px; /* tamanho da fonte */
+    border: 1px solid var(--cor-de-fundo-bio); /* borda */
+    border-radius: 12px; /* borda arredondada */
+    background-color: transparent; /* cor de fundo */
+    color: var(--cor-do-titulo); /* cor do texto */
+}
+
+/* Estilize o placeholder (texto de espaço reservado) */
+.banner__pesquisa::placeholder {
+    color: var( --aba-de-pesquisa); /* cor do texto do espaço reservado */
+    font-weight: 400;
+}
